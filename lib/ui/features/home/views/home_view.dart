@@ -119,14 +119,10 @@ class _HomeViewState extends ConsumerState<HomeView> {
                 ],
               ),
               const Spacer(flex: 3),
-              Text(
-                'Pipes',
-                style: TextStyle(
-                  fontSize: 52,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: -0.5,
-                  color: AppColors.headingDark,
-                ),
+              Image.asset(
+                'assets/icon.png',
+                width: 120,
+                height: 120,
               ),
               const Spacer(flex: 4),
               TangibleButton(
